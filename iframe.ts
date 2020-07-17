@@ -1,6 +1,6 @@
-var iframe = new iFrame();
+const iframe = new iFrame();
 iframe.on("UpdateData", async () => {
-  var video;
+  let video;
   if (
     document.querySelector(
       "#myVideo > div.jw-wrapper.jw-reset > div.jw-media.jw-reset > video"
